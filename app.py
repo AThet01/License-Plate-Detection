@@ -3,8 +3,19 @@ import cv2
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
+import os
+import gdown
 
-model = YOLO("best.pt") 
+# ✅ Replace with your actual file ID
+file_id = "1o-UAE4_jK7Ls7TifdKPdGYQA8g1ccNXR"
+output = "best.pt"
+
+if not os.path.exists(output):
+    url = f"https://drive.google.com/uc?id={file_id}"
+    gdown.download(url, output, quiet=False)
+
+model = YOLO(output)
+
 st.title("🔍 License Plate Detection")
 st.write("Upload an image to detect license plates, process the region, and show with bounding boxes.")
 
