@@ -1,6 +1,6 @@
 streamlit
 ultralytics
-opencv-python-headless==4.7.0.72
+opencv-python-headless==4.11.0.86
 Pillow
 gdown
-numpy==1.24.4
+numpy
