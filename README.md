@@ -18,6 +18,7 @@ pip install streamlit opencv-python numpy Pillow ultralytics
 ## 📦 Future Work
 🔠 **1. Character-Level Detection** (YOLO OCR Model)
 🎥 **2. Real-Time Video or Webcam Support** 
+🚀 **3. Deployment**
 
 
 
