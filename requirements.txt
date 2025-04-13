@@ -4,4 +4,5 @@ opencv-python
 Pillow
 numpy
 gdown
-opencv-python
+opencv-python-headless
+
