@@ -1,6 +1,7 @@
 streamlit
 opencv-python-headless
-numpy
 Pillow
-easyocr
+numpy
 ultralytics
+gdown
+torch
