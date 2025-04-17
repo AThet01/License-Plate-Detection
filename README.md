@@ -12,7 +12,7 @@ This is License Plate Detection using YOLOv8 ultralytics.
 To install the required dependencies, run:
 
 ```bash
-pip install streamlit opencv-python-headless numpy Pillow ultralytics
+pip install streamlit opencv-python-headless numpy Pillow ultralytics gdown
 streamlit run app.py
 ```
 
