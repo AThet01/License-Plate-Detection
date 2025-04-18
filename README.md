@@ -17,7 +17,7 @@ streamlit run app.py
 ```
 
 ## 📦 Future Work
-🔠 **1. Character-Level Detection** (YOLO OCR Model)
+🔠 **1. Character-Level Detection** 
 🎥 **2. Real-Time Video or Webcam Support** 
 🚀 **3. Deployment**
 
